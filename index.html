@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progresso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>*Criação de um Progresso *</h1>
+    <video id="meuVideo" width="800px" height="400px"> <!--controls pode ser adcionado -->
+        <source src="/f62e5893-c2c198bb.mp4" type="video/mp4">
+        Seu browser nao suporta a tag Video
+    </video>
+
+    <div wm-progresso="meuVideo" class="progresso">
+        <div></div>
+    </div>
+
+    <div>
+
+        <button wm-play="meuVideo">Play</button>
+        <button wm-pause="meuVideo">Pause</button>
+    </div>
+
+</body>
+<script src="progr.js"></script>
+</html>
